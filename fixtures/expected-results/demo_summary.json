@@ -1,0 +1,729 @@
+{
+  "summary": {
+    "filename": "demo_network_traffic.pcap",
+    "file_size_bytes": 3688,
+    "format_name": "PCAP",
+    "packet_count": 45,
+    "total_bytes": 2944,
+    "start_time_iso": "2023-11-14T22:13:20.100+00:00",
+    "end_time_iso": "2023-11-14T22:13:26.031+00:00",
+    "duration_seconds": 5.931,
+    "link_type_name": "Ethernet (1)",
+    "interface_count": 1,
+    "timestamp_precision": "Microsecond",
+    "malformed_packet_count": 0,
+    "truncated_packet_count": 0,
+    "unsupported_packet_count": 0,
+    "host_count": 19,
+    "flow_count": 31,
+    "dns_query_count": 10
+  },
+  "protocols": [
+    {
+      "name": "TCP",
+      "packet_count": 28,
+      "byte_count": 1512,
+      "percentage_packets": 62.22222222222222,
+      "percentage_bytes": 51.358695652173914
+    },
+    {
+      "name": "DNS",
+      "packet_count": 10,
+      "byte_count": 830,
+      "percentage_packets": 22.22222222222222,
+      "percentage_bytes": 28.1929347826087
+    },
+    {
+      "name": "HTTP",
+      "packet_count": 2,
+      "byte_count": 316,
+      "percentage_packets": 4.444444444444445,
+      "percentage_bytes": 10.733695652173914
+    },
+    {
+      "name": "ICMP",
+      "packet_count": 2,
+      "byte_count": 148,
+      "percentage_packets": 4.444444444444445,
+      "percentage_bytes": 5.0271739130434785
+    },
+    {
+      "name": "ARP",
+      "packet_count": 2,
+      "byte_count": 84,
+      "percentage_packets": 4.444444444444445,
+      "percentage_bytes": 2.8532608695652173
+    },
+    {
+      "name": "UDP",
+      "packet_count": 1,
+      "byte_count": 54,
+      "percentage_packets": 2.2222222222222223,
+      "percentage_bytes": 1.8342391304347827
+    }
+  ],
+  "top_hosts": [
+    {
+      "ip": "192.168.1.10",
+      "mac": "00:11:22:33:44:55",
+      "address_family": "IPv4",
+      "packets_sent": 11,
+      "packets_received": 9,
+      "bytes_sent": 832,
+      "bytes_received": 762,
+      "total_bytes": 1594,
+      "unique_peers": [
+        "129.6.15.28",
+        "192.168.1.1",
+        "8.8.8.8",
+        "93.184.216.34"
+      ],
+      "peer_count": 4,
+      "observed_protocols": [
+        "ARP",
+        "DNS",
+        "HTTP",
+        "ICMP",
+        "TCP",
+        "UDP"
+      ],
+      "source_ports": [
+        49152,
+        51234,
+        54321,
+        54322,
+        54323,
+        54324,
+        54325
+      ],
+      "destination_ports": [
+        49152,
+        54321,
+        54322,
+        54323,
+        54324,
+        54325
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:20.100+00:00",
+      "last_seen_iso": "2023-11-14T22:13:24.017+00:00",
+      "first_seen_ns": 1700000000100000000,
+      "last_seen_ns": 1700000004017000000
+    },
+    {
+      "ip": "192.168.1.100",
+      "mac": "00:11:22:33:44:55",
+      "address_family": "IPv4",
+      "packets_sent": 22,
+      "packets_received": 3,
+      "bytes_sent": 1188,
+      "bytes_received": 162,
+      "total_bytes": 1350,
+      "unique_peers": [
+        "192.168.1.20",
+        "192.168.1.21",
+        "192.168.1.22",
+        "192.168.1.23",
+        "192.168.1.24",
+        "192.168.1.25",
+        "192.168.1.26",
+        "192.168.1.27",
+        "192.168.1.28",
+        "192.168.1.29",
+        "192.168.1.30",
+        "192.168.1.31",
+        "192.168.1.50"
+      ],
+      "peer_count": 13,
+      "observed_protocols": [
+        "TCP"
+      ],
+      "source_ports": [
+        45000,
+        50000
+      ],
+      "destination_ports": [
+        50000
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:25.010210+00:00",
+      "last_seen_iso": "2023-11-14T22:13:26.031+00:00",
+      "first_seen_ns": 1700000005010210000,
+      "last_seen_ns": 1700000006031000000
+    },
+    {
+      "ip": "8.8.8.8",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 5,
+      "packets_received": 5,
+      "bytes_sent": 423,
+      "bytes_received": 407,
+      "total_bytes": 830,
+      "unique_peers": [
+        "192.168.1.10"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "DNS"
+      ],
+      "source_ports": [
+        53
+      ],
+      "destination_ports": [
+        53
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:21.010+00:00",
+      "last_seen_iso": "2023-11-14T22:13:24.017+00:00",
+      "first_seen_ns": 1700000001010000000,
+      "last_seen_ns": 1700000004017000000
+    },
+    {
+      "ip": "192.168.1.50",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 3,
+      "packets_received": 10,
+      "bytes_sent": 162,
+      "bytes_received": 540,
+      "total_bytes": 702,
+      "unique_peers": [
+        "192.168.1.100"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "TCP"
+      ],
+      "source_ports": [
+        22,
+        8080,
+        9000
+      ],
+      "destination_ports": [
+        21,
+        22,
+        23,
+        25,
+        445,
+        1433,
+        3389,
+        8080,
+        8443,
+        9000
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:25.010210+00:00",
+      "last_seen_iso": "2023-11-14T22:13:25.100500+00:00",
+      "first_seen_ns": 1700000005010210000,
+      "last_seen_ns": 1700000005100500000
+    },
+    {
+      "ip": "93.184.216.34",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 2,
+      "packets_received": 3,
+      "bytes_sent": 223,
+      "bytes_received": 255,
+      "total_bytes": 478,
+      "unique_peers": [
+        "192.168.1.10"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "HTTP",
+        "TCP"
+      ],
+      "source_ports": [
+        80
+      ],
+      "destination_ports": [
+        80
+      ],
+      "associated_dns_names": [
+        "example.com"
+      ],
+      "first_seen_iso": "2023-11-14T22:13:22.050+00:00",
+      "last_seen_iso": "2023-11-14T22:13:22.090+00:00",
+      "first_seen_ns": 1700000002050000000,
+      "last_seen_ns": 1700000002090000000
+    },
+    {
+      "ip": "192.168.1.1",
+      "mac": "ff:ff:ff:ff:ff:ff",
+      "address_family": "IPv4",
+      "packets_sent": 2,
+      "packets_received": 2,
+      "bytes_sent": 116,
+      "bytes_received": 116,
+      "total_bytes": 232,
+      "unique_peers": [
+        "192.168.1.10"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "ARP",
+        "ICMP"
+      ],
+      "source_ports": [],
+      "destination_ports": [],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:20.100+00:00",
+      "last_seen_iso": "2023-11-14T22:13:23.011+00:00",
+      "first_seen_ns": 1700000000100000000,
+      "last_seen_ns": 1700000003011000000
+    },
+    {
+      "ip": "192.168.1.28",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 0,
+      "packets_received": 1,
+      "bytes_sent": 0,
+      "bytes_received": 54,
+      "total_bytes": 54,
+      "unique_peers": [
+        "192.168.1.100"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "TCP"
+      ],
+      "source_ports": [],
+      "destination_ports": [
+        443
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:26.028+00:00",
+      "last_seen_iso": "2023-11-14T22:13:26.028+00:00",
+      "first_seen_ns": 1700000006028000000,
+      "last_seen_ns": 1700000006028000000
+    },
+    {
+      "ip": "192.168.1.29",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 0,
+      "packets_received": 1,
+      "bytes_sent": 0,
+      "bytes_received": 54,
+      "total_bytes": 54,
+      "unique_peers": [
+        "192.168.1.100"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "TCP"
+      ],
+      "source_ports": [],
+      "destination_ports": [
+        443
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:26.029+00:00",
+      "last_seen_iso": "2023-11-14T22:13:26.029+00:00",
+      "first_seen_ns": 1700000006029000000,
+      "last_seen_ns": 1700000006029000000
+    },
+    {
+      "ip": "192.168.1.24",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 0,
+      "packets_received": 1,
+      "bytes_sent": 0,
+      "bytes_received": 54,
+      "total_bytes": 54,
+      "unique_peers": [
+        "192.168.1.100"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "TCP"
+      ],
+      "source_ports": [],
+      "destination_ports": [
+        443
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:26.024+00:00",
+      "last_seen_iso": "2023-11-14T22:13:26.024+00:00",
+      "first_seen_ns": 1700000006024000000,
+      "last_seen_ns": 1700000006024000000
+    },
+    {
+      "ip": "129.6.15.28",
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "address_family": "IPv4",
+      "packets_sent": 0,
+      "packets_received": 1,
+      "bytes_sent": 0,
+      "bytes_received": 54,
+      "total_bytes": 54,
+      "unique_peers": [
+        "192.168.1.10"
+      ],
+      "peer_count": 1,
+      "observed_protocols": [
+        "UDP"
+      ],
+      "source_ports": [],
+      "destination_ports": [
+        123
+      ],
+      "associated_dns_names": [],
+      "first_seen_iso": "2023-11-14T22:13:23.050+00:00",
+      "last_seen_iso": "2023-11-14T22:13:23.050+00:00",
+      "first_seen_ns": 1700000003050000000,
+      "last_seen_ns": 1700000003050000000
+    }
+  ],
+  "top_flows": [
+    {
+      "id": "tcp_192-168-1-10_49152_93-184-216-34_80",
+      "protocol": "TCP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 49152,
+      "endpoint_b": "93.184.216.34",
+      "port_b": 80,
+      "start_time_ns": 1700000002050000000,
+      "end_time_ns": 1700000002090000000,
+      "start_time_iso": "2023-11-14T22:13:22.050+00:00",
+      "end_time_iso": "2023-11-14T22:13:22.090+00:00",
+      "duration_seconds": 0.04,
+      "packet_count": 5,
+      "total_bytes": 478,
+      "forward_packets": 3,
+      "reverse_packets": 2,
+      "forward_bytes": 255,
+      "reverse_bytes": 223,
+      "first_packet_index": 5,
+      "last_packet_index": 9,
+      "syn_count": 1,
+      "syn_ack_count": 1,
+      "ack_count": 3,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "Completed (SYN → SYN-ACK → ACK)",
+      "dns_names": []
+    },
+    {
+      "id": "udp_192-168-1-10_54324_8-8-8-8_53",
+      "protocol": "UDP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 54324,
+      "endpoint_b": "8.8.8.8",
+      "port_b": 53,
+      "start_time_ns": 1700000004014000000,
+      "end_time_ns": 1700000004015000000,
+      "start_time_iso": "2023-11-14T22:13:24.014+00:00",
+      "end_time_iso": "2023-11-14T22:13:24.015+00:00",
+      "duration_seconds": 0.001,
+      "packet_count": 2,
+      "total_bytes": 168,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 84,
+      "reverse_bytes": 84,
+      "first_packet_index": 17,
+      "last_packet_index": 18,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "udp_192-168-1-10_54325_8-8-8-8_53",
+      "protocol": "UDP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 54325,
+      "endpoint_b": "8.8.8.8",
+      "port_b": 53,
+      "start_time_ns": 1700000004016000000,
+      "end_time_ns": 1700000004017000000,
+      "start_time_iso": "2023-11-14T22:13:24.016+00:00",
+      "end_time_iso": "2023-11-14T22:13:24.017+00:00",
+      "duration_seconds": 0.001,
+      "packet_count": 2,
+      "total_bytes": 168,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 84,
+      "reverse_bytes": 84,
+      "first_packet_index": 19,
+      "last_packet_index": 20,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "udp_192-168-1-10_54323_8-8-8-8_53",
+      "protocol": "UDP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 54323,
+      "endpoint_b": "8.8.8.8",
+      "port_b": 53,
+      "start_time_ns": 1700000004012000000,
+      "end_time_ns": 1700000004013000000,
+      "start_time_iso": "2023-11-14T22:13:24.012+00:00",
+      "end_time_iso": "2023-11-14T22:13:24.013+00:00",
+      "duration_seconds": 0.001,
+      "packet_count": 2,
+      "total_bytes": 168,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 84,
+      "reverse_bytes": 84,
+      "first_packet_index": 15,
+      "last_packet_index": 16,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "udp_192-168-1-10_54322_8-8-8-8_53",
+      "protocol": "UDP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 54322,
+      "endpoint_b": "8.8.8.8",
+      "port_b": 53,
+      "start_time_ns": 1700000004010000000,
+      "end_time_ns": 1700000004011000000,
+      "start_time_iso": "2023-11-14T22:13:24.010+00:00",
+      "end_time_iso": "2023-11-14T22:13:24.011+00:00",
+      "duration_seconds": 0.001,
+      "packet_count": 2,
+      "total_bytes": 168,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 84,
+      "reverse_bytes": 84,
+      "first_packet_index": 13,
+      "last_packet_index": 14,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "udp_192-168-1-10_54321_8-8-8-8_53",
+      "protocol": "UDP",
+      "endpoint_a": "192.168.1.10",
+      "port_a": 54321,
+      "endpoint_b": "8.8.8.8",
+      "port_b": 53,
+      "start_time_ns": 1700000001010000000,
+      "end_time_ns": 1700000001025000000,
+      "start_time_iso": "2023-11-14T22:13:21.010+00:00",
+      "end_time_iso": "2023-11-14T22:13:21.025+00:00",
+      "duration_seconds": 0.015,
+      "packet_count": 2,
+      "total_bytes": 158,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 71,
+      "reverse_bytes": 87,
+      "first_packet_index": 3,
+      "last_packet_index": 4,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "icmp_192-168-1-1_0_192-168-1-10_0",
+      "protocol": "ICMP",
+      "endpoint_a": "192.168.1.1",
+      "port_a": 0,
+      "endpoint_b": "192.168.1.10",
+      "port_b": 0,
+      "start_time_ns": 1700000003010000000,
+      "end_time_ns": 1700000003011000000,
+      "start_time_iso": "2023-11-14T22:13:23.010+00:00",
+      "end_time_iso": "2023-11-14T22:13:23.011+00:00",
+      "duration_seconds": 0.001,
+      "packet_count": 2,
+      "total_bytes": 148,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 74,
+      "reverse_bytes": 74,
+      "first_packet_index": 10,
+      "last_packet_index": 11,
+      "syn_count": 0,
+      "syn_ack_count": 0,
+      "ack_count": 0,
+      "rst_count": 0,
+      "fin_count": 0,
+      "handshake_summary": "N/A (Connectionless)",
+      "dns_names": []
+    },
+    {
+      "id": "tcp_192-168-1-100_50000_192-168-1-50_22",
+      "protocol": "TCP",
+      "endpoint_a": "192.168.1.100",
+      "port_a": 50000,
+      "endpoint_b": "192.168.1.50",
+      "port_b": 22,
+      "start_time_ns": 1700000005010220000,
+      "end_time_ns": 1700000005010720000,
+      "start_time_iso": "2023-11-14T22:13:25.010220+00:00",
+      "end_time_iso": "2023-11-14T22:13:25.010720+00:00",
+      "duration_seconds": 0.0005,
+      "packet_count": 2,
+      "total_bytes": 108,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 54,
+      "reverse_bytes": 54,
+      "first_packet_index": 22,
+      "last_packet_index": 23,
+      "syn_count": 1,
+      "syn_ack_count": 0,
+      "ack_count": 1,
+      "rst_count": 1,
+      "fin_count": 0,
+      "handshake_summary": "Reset (RST observed)",
+      "dns_names": []
+    },
+    {
+      "id": "tcp_192-168-1-100_50000_192-168-1-50_9000",
+      "protocol": "TCP",
+      "endpoint_a": "192.168.1.100",
+      "port_a": 50000,
+      "endpoint_b": "192.168.1.50",
+      "port_b": 9000,
+      "start_time_ns": 1700000005100000000,
+      "end_time_ns": 1700000005100500000,
+      "start_time_iso": "2023-11-14T22:13:25.100+00:00",
+      "end_time_iso": "2023-11-14T22:13:25.100500+00:00",
+      "duration_seconds": 0.0005,
+      "packet_count": 2,
+      "total_bytes": 108,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 54,
+      "reverse_bytes": 54,
+      "first_packet_index": 32,
+      "last_packet_index": 33,
+      "syn_count": 1,
+      "syn_ack_count": 0,
+      "ack_count": 1,
+      "rst_count": 1,
+      "fin_count": 0,
+      "handshake_summary": "Reset (RST observed)",
+      "dns_names": []
+    },
+    {
+      "id": "tcp_192-168-1-100_50000_192-168-1-50_8080",
+      "protocol": "TCP",
+      "endpoint_a": "192.168.1.100",
+      "port_a": 50000,
+      "endpoint_b": "192.168.1.50",
+      "port_b": 8080,
+      "start_time_ns": 1700000005090800000,
+      "end_time_ns": 1700000005091300000,
+      "start_time_iso": "2023-11-14T22:13:25.090800+00:00",
+      "end_time_iso": "2023-11-14T22:13:25.091300+00:00",
+      "duration_seconds": 0.0005,
+      "packet_count": 2,
+      "total_bytes": 108,
+      "forward_packets": 1,
+      "reverse_packets": 1,
+      "forward_bytes": 54,
+      "reverse_bytes": 54,
+      "first_packet_index": 29,
+      "last_packet_index": 30,
+      "syn_count": 1,
+      "syn_ack_count": 0,
+      "ack_count": 1,
+      "rst_count": 1,
+      "fin_count": 0,
+      "handshake_summary": "Reset (RST observed)",
+      "dns_names": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "FIND-0001",
+      "title": "High Destination Fan-Out from 192.168.1.100",
+      "severity": "High",
+      "category": "Host Behaviour",
+      "affected_host": "192.168.1.100",
+      "first_seen_iso": "2023-11-14T22:13:25.010210+00:00",
+      "last_seen_iso": "2023-11-14T22:13:26.031+00:00",
+      "status": "New",
+      "rule_name": "Rule 2: High Destination Fan-Out",
+      "configured_threshold": ">= 8 unique destinations",
+      "observed_value": "13 unique peers",
+      "what_happened": "Host 192.168.1.100 communicated with 13 distinct IP destinations across the capture.",
+      "why_flagged": "A single host communicating with many destinations in a short window is characteristic of port scanning, host discovery, or service enumeration.",
+      "affected_conversations": [
+        "192.168.1.100 ↔ 192.168.1.20",
+        "192.168.1.100 ↔ 192.168.1.21",
+        "192.168.1.100 ↔ 192.168.1.22",
+        "192.168.1.100 ↔ 192.168.1.23",
+        "192.168.1.100 ↔ 192.168.1.24"
+      ],
+      "related_packets": [],
+      "investigation_steps": [
+        "Inspect the destination ports accessed across these peers.",
+        "Check if the attempts received valid responses or remained unanswered.",
+        "Determine if this device functions as a legitimate gateway, proxy, or monitoring scanner."
+      ],
+      "notes": ""
+    },
+    {
+      "id": "FIND-0002",
+      "title": "Elevated DNS Error / NXDOMAIN Rate",
+      "severity": "Low",
+      "category": "DNS Analytics",
+      "affected_host": null,
+      "first_seen_iso": "2023-11-14T22:13:21.010+00:00",
+      "last_seen_iso": "2023-11-14T22:13:24.017+00:00",
+      "status": "New",
+      "rule_name": "Rule 5: DNS Error Spike",
+      "configured_threshold": ">= 20% DNS errors",
+      "observed_value": "40.0% (4 errors out of 10 DNS messages)",
+      "what_happened": "Multiple DNS queries resulted in non-zero response codes (NXDomain / ServFail / FormErr).",
+      "why_flagged": "High rates of NXDOMAIN responses can occur from typo squatting, domain generation algorithms (DGA), or misconfigured service endpoints.",
+      "affected_conversations": [],
+      "related_packets": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "investigation_steps": [
+        "Inspect the queried domain names that returned NXDomain.",
+        "Identify the requesting source hosts.",
+        "Check for patterns or automated querying in DNS timeline."
+      ],
+      "notes": ""
+    }
+  ],
+  "limitations": [
+    "Encrypted application payloads (TLS, SSH, HTTPS) are inspected for protocol metadata only; payload plaintext is neither decrypted nor inspected.",
+    "Heuristic findings represent potentially unusual statistical patterns and should not be treated as confirmed security compromises.",
+    "Incomplete observed TCP handshakes may simply reflect partial packet capture duration rather than connection failure.",
+    "Analyses are executed entirely client-side inside the local WebAssembly runtime; capture data is never transmitted to remote servers."
+  ]
+}
