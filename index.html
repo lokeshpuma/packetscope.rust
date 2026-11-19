@@ -7,12 +7,24 @@
   <meta name="theme-color" content="#0f172a" />
   <title>PacketScope — Browser-Based Network Forensics</title>
   
-  <link data-trunk rel="rust" href="crates/packetscope-web/Cargo.toml" data-bin="packetscope-web" />
-  <link data-trunk rel="css" href="public/style.css" />
-  <link data-trunk rel="copy-file" href="public/favicon.svg" />
-  <link data-trunk rel="copy-file" href="public/logo.svg" />
+  
+<script type="module">
+import init, * as bindings from '/packetscope.rust/packetscope-web-40e9c091b367330b.js';
+
+const wasm = await init({ module_or_path: '/packetscope.rust/packetscope-web-48b12cb0be18aa3d_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="stylesheet" href="/packetscope.rust/style-71d9832e401fa47f.css" integrity="sha384-fSPRaYx1bBe5yCxi7GwJvEVQ5a8wwLJT/CqYKkTJbXKlJi8zqSOo5bhTZfo/Sp0x"/>
+  
+  
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-</head>
+<link rel="modulepreload" href="/packetscope.rust/packetscope-web-40e9c091b367330b.js" crossorigin="anonymous" integrity="sha384-UjeK/BLFUzj0ctdiCqtL5KYPsd2rEzBEU3yyd3Iad15+c9JQEmumhnq6hlZjk59t"><link rel="preload" href="/packetscope.rust/packetscope-web-48b12cb0be18aa3d_bg.wasm" crossorigin="anonymous" integrity="sha384-QkVJvvt7b3XopsKv0sAaoHi+D8Hd2EjPhYQmL3DSXr8reEJNtiqL0nSHoUgZVKRv" as="fetch" type="application/wasm"></head>
 <body>
   <div id="app"></div>
 </body>
