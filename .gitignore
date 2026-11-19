@@ -1,0 +1,18 @@
+# Rust target directory
+/target/
+
+# Trunk build output
+/dist/
+.trunk-lock
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cargo lock file is kept for binaries, but ignored if desired
