@@ -9,9 +9,9 @@
   
   
 <script type="module">
-import init, * as bindings from '/packetscope.rust/packetscope-web-40e9c091b367330b.js';
+import init, * as bindings from '/packetscope.rust/packetscope-web-3ad7b7420b51c32f.js';
 
-const wasm = await init({ module_or_path: '/packetscope.rust/packetscope-web-48b12cb0be18aa3d_bg.wasm' });
+const wasm = await init({ module_or_path: '/packetscope.rust/packetscope-web-1717c3bf64569166_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -24,7 +24,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
   
   
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-<link rel="modulepreload" href="/packetscope.rust/packetscope-web-40e9c091b367330b.js" crossorigin="anonymous" integrity="sha384-UjeK/BLFUzj0ctdiCqtL5KYPsd2rEzBEU3yyd3Iad15+c9JQEmumhnq6hlZjk59t"><link rel="preload" href="/packetscope.rust/packetscope-web-48b12cb0be18aa3d_bg.wasm" crossorigin="anonymous" integrity="sha384-QkVJvvt7b3XopsKv0sAaoHi+D8Hd2EjPhYQmL3DSXr8reEJNtiqL0nSHoUgZVKRv" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/packetscope.rust/packetscope-web-3ad7b7420b51c32f.js" crossorigin="anonymous" integrity="sha384-dkpsOG9cMp+U+MkYFAbWZ0EOyOkDEN99nHQmaOfT5X4BI1OTdsxOrL15SEOQeKa3"><link rel="preload" href="/packetscope.rust/packetscope-web-1717c3bf64569166_bg.wasm" crossorigin="anonymous" integrity="sha384-L2cTSIteZeINXO9dLTONFauT6Otgys8vXbi1dtU7QKZqirjTKyOuUWmMgWLEX01z" as="fetch" type="application/wasm"></head>
 <body>
   <div id="app"></div>
 </body>
