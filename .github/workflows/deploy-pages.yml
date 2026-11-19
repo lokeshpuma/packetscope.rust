@@ -30,12 +30,6 @@ jobs:
         run: |
           wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.22.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf- -C /usr/local/bin
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        continue-on-error: true
-        with:
-          enablement: true
-
       - name: Build Application with Trunk (Release)
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
